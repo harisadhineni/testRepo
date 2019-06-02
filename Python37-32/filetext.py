@@ -1,0 +1,6 @@
+x = open("D:\\Textfile.txt","w")
+n = input ("enter input :")
+x.write(n)
+x.close()
+x = open("D:\\Textfile.txt","r")
+print(x.read())
